@@ -4,7 +4,7 @@
 }
 a {
   color: blue;
-  background-color: darkgray;
+  background-color: dimgray;
 }
 
 .exo-2 {
@@ -15,5 +15,9 @@ a {
 .text {
   color: white;
 }
-body {
-  background-color:black;
+.body {
+  background-color: black;
+}
+.Introduction {
+  background-color: lightslategray;
+}
