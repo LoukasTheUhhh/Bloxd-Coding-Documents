@@ -1,10 +1,9 @@
-.title{
+.title {
   position: sticky;
   background-color: black;
   text-align: left;
-  font-family: "Exo 2";
 }
-a{
+a {
   color: blue;
   background-color: darkgray;
 }
@@ -14,4 +13,7 @@ a{
   font-optical-sizing: auto;
   font-style: normal;
 }
-
+.text {
+  background-color: black;
+  color: white;
+}
