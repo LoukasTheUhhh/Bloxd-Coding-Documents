@@ -4,23 +4,53 @@
   top: 0;
   background-color: #2e2e2e;
 padding: 30px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Exo 2", sans-serif;
 }
 /*Make links stand out with a dark orange color.*/
 .t{
   color: white;
   font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 a {
   color: darkorange;
   font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
-
+/*Make sure headings stand out and have the right size*/
+h1 {
+  color: white;
+  background-color: #2e2e2e;
+  font-size: 21px;
+  font-family: "Exo 2", sans-serif;
+}
+h2 {
+  color: white;
+  background-color: #2e2e2e;
+  font-family: "Exo 2", sans-serif;
+  font-size: 20px;
+}
+h3 {
+  color: white;
+  background-color: #2e2e2e;
+  font-family: "Exo 2", sans-serif;
+  font-size: 19px;
+}
+h4 {
+  color: white;
+  background-color: #2e2e2e;
+  font-family: "Exo 2", sans-serif;
+  font-size: 18px;
+h5 {
+  color: white;
+  background-color: #2e2e2e;
+  font-family: "Exo 2", sans-serif;
+  font-size: 17px;
+}
+h6 {
+  color: white;
+  background-color: #2e2e2e;
+  font-family: "Exo 2", sans-serif;
+  font-size: 16px;
 /*Make the body be black,because i like dark mode.*/
 .body {
   background-color: black;
@@ -29,23 +59,80 @@ a {
 .Introduction {
   background-color: #2e2e2e;
   color: white;
+  font-size: 16px;
 }
 /*Make paragraphs stand out by having a different background color.*/
 p {
   background-color: #2e2e2e;
   color: white;
   font-family: "Exo 2", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+  font-size: 15px;
 }
-/*Make titles fit for all screen sizes*/
+/*Make the website fit mobile screens*/
 @media (max-width: 768px) {
   .title {
     position: sticky;
     top: 0;
     background-color: #2e2e2e;
-    font-size: 16px;
+    font-size: 20px;
     padding: 20px;
     font-family: "Exo 2", sans-serif;
   }
+  .t {
+    font-family: "Exo 2", sans-serif;
+    font-style: normal;
+    color: white;
+  }
+  .Introduction {
+    background-color: #2e2e2e;
+    color: white;
+    font-size: 12px;
+  }
+  p {
+    background-color: #2e2e2e;
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    font-size: 10px;
+  }
+  h1 {
+    background-color: #2e2e2e;
+    color: white;
+    font-family: "Exo 2", sans-serif;
+    font-size: 16px;
+  }
+  h2 {
+    color: white;
+    background-color: #2e2e2e;
+    font-family: "Exo 2", sans-serif;
+    font-size: 15px;
+  }
+  h3 {
+    color: white;
+    background-color: #2e2e2e;
+    font-family: "Exo 2", sans-serif;
+    font-size: 14px;
+  }
+  h4 {
+    color: white;
+    background-color: #2e2e2e;
+    font-family: "Exo 2", sans-serif;
+    font-size: 13px;
+  }
+  h5 {
+    color: white;
+    background-color: #2e2e2e;
+    font-family: "Exo 2", sans-serif;
+    font-size: 12px;
+  }
+  h6 {
+    color: white;
+    background-color: #2e2e2e;
+    font-family: "Exo 2", sans-serif;
+    font-size: 11px;
+  }
+  a {
+    background-color: #2e2e2e;
+    color: darkorange;
+    font-family: "Exo 2", sans-serif;
+    font-size: 12px;
 }
