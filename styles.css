@@ -5,11 +5,18 @@ Normal Desktop Settings
 */
 /*Classes for Sticky Titles at the top of the page*/
 .titleimg {
+  display: block;
+  margin: 0 auto;
   position: sticky;
   top: 0;
-  max-width: 100%;
+  left: 0;
+  width: 100vw;
+  max-width: 100vw;
+  min-width: 100vw;
   height: auto;
-  z-index: 10; /* Ensures it stays above content */
+  z-index: 10;
+  background: #2e2e2e;
+  object-fit: cover; /* crop if needed, keeps aspect ratio */
 }
 .titletext {
   position: sticky;
@@ -75,9 +82,11 @@ Custom Mobile Settings
 */
 @media (max-width: 768px) {
   .titleimg {
-    max-width: 100%;  /* Adjust as preferred */
+    idth: 100vw;
+    max-width: 100vw;
+    min-width: 100vw;
     height: auto;
-    top: 0;
+    object-fit: cover;
   }
   .titletext {
     position: sticky;
