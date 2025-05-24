@@ -19,7 +19,7 @@ padding: 30px;
 }
 /*Make links stand out with a dark orange color.*/
 a {
-  color: darkorange;
+  color: darkorange !important;
   background-color: #2e2e2e;
   font-family: "Exo 2", sans-serif;
 }
