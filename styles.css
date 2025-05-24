@@ -24,7 +24,7 @@ a {
   font-family: "Exo 2", sans-serif;
 }
 /*Make all these groups share the same font and style*/
-h1, h2, h3, h4, h5, h6, .Introduction, p, title {
+h1, h2, h3, h4, h5, h6, .Introduction, p, .title {
     color: white;
     background-color: #2e2e2e;
     font-family: "Exo 2", sans-serif;
@@ -73,7 +73,7 @@ Custom Mobile Settings
     padding: 25px;
   }
   .t {
-    color: white;
+    font-size: 10px;
   }
   .Introduction {
     font-size: 12px;
@@ -102,7 +102,7 @@ Custom Mobile Settings
   a {
     font-size: 12px;
   }
-  h1, h2, h3, h4, h5, h6, p, Introduction, title {
+  h1, h2, h3, h4, h5, h6, p, .Introduction, .title {
     color: white;
     background-color: #2e2e2e;
     font-family: "Exo 2", sans-serif;
