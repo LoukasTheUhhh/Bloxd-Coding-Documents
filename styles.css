@@ -4,11 +4,14 @@ Normal Desktop Settings
 !!!!!!!!!
 */
 /*Classes for Sticky Titles at the top of the page*/
-.titleimg {
+  titleimg {
+  display: block;
+  margin: 0 auto;
   position: sticky;
   top: 0;
-  height: 100px;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
+  z-index: 10; /* Ensures it stays above content */
 }
 .titletext {
   position: sticky;
@@ -74,17 +77,16 @@ Custom Mobile Settings
 */
 @media (max-width: 768px) {
   .titleimg {
-  position: sticky;
-  top: 0;
-  height: 50px;
-  width: 50%;
+    max-width: 80%;  /* Adjust as preferred */
+    height: auto;
+    top: 0;
   }
   .titletext {
-  position: sticky;
-  top: 0;
-  color: white;
-  background-color: #2e2e2e;
-  font-family: "Exo 2", sans-serif;
+    position: sticky;
+    top: 0;
+    color: white;
+    background-color: #2e2e2e;
+    font-family: "Exo 2", sans-serif;
   }
   .t {
     font-size: 10px;
