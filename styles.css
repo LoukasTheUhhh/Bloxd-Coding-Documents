@@ -2,8 +2,8 @@
   position: sticky;
   top: 0;
   background-color: black;
-  padding: 30px;
-  font-size: 20px;
+  padding:30px;
+  font-size:20px;
 }
 a {
   color: darkorange;
@@ -22,4 +22,7 @@ a {
 }
 .Introduction {
   background-color: darkslategray;
+}
+p {
+  color: white;
 }
