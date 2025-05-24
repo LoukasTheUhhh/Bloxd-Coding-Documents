@@ -5,30 +5,38 @@
   background-color: #2e2e2e;
 padding: 30px;
   font-size: 20px;
+  font-family: "Exo 2", sans-serif;
 }
 /*Make links stand out with a dark orange color.*/
-a {
-  color: darkorange;
-}
-
-/*Class for text with the Exo 2 font*/
-.exo-2 {
+.t{
+  color: white;
   font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-/*Make the body be black,because i like dark mode. Also for all normal text to be white.*/
+a {
+  color: darkorange;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/*Make the body be black,because i like dark mode.*/
 .body {
-  color: white;
   background-color: black;
 }
 /*Make introductions stand out by having a different background color*/
 .Introduction {
   background-color: #2e2e2e;
+  color: white;
 }
 /*Make paragraphs stand out by having a different background color.*/
 p {
   background-color: #2e2e2e;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 /*Make titles fit for all screen sizes*/
 @media (max-width: 768px) {
@@ -38,5 +46,6 @@ p {
     background-color: #2e2e2e;
     font-size: 16px;
     padding: 20px;
+    font-family: "Exo 2", sans-serif;
   }
 }
