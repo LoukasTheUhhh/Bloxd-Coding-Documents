@@ -1,10 +1,13 @@
 .title {
   position: sticky;
-  text-align: left;
+  top: 0;
+  background-color: black;
+  padding: 30px;
+  font-size: 20px;
 }
 a {
-  color: blue;
-  background-color: dimgray;
+  color: darkorange;
+  background-color: darkslategray;
 }
 
 .exo-2 {
@@ -19,5 +22,5 @@ a {
   background-color: black;
 }
 .Introduction {
-  background-color: lightslategray;
+  background-color: darkslategray;
 }
