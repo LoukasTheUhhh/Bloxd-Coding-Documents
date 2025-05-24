@@ -3,12 +3,19 @@
 Normal Desktop Settings
 !!!!!!!!!
 */
-/*Class for Sticky Titles at the top of the page*/
-.title {
+/*Classes for Sticky Titles at the top of the page*/
+.titleimg {
   position: sticky;
   top: 0;
-padding: 30px;
-  font-size: 25px;
+  height: 100px;
+  width: 100%;
+}
+.titletext {
+  position: sticky;
+  top: 0;
+  color: white;
+  background-color: #2e2e2e;
+  font-family: "Exo 2", sans-serif;
 }
 /*Class used for all miscellanous tags that are also text*/
 .t{
@@ -24,7 +31,7 @@ a {
   font-family: "Exo 2", sans-serif;
 }
 /*Make all these groups share the same font and style*/
-h1, h2, h3, h4, h5, h6, .Introduction, p, .title {
+h1, h2, h3, h4, h5, h6, .Introduction, p, {
     color: white;
     background-color: #2e2e2e;
     font-family: "Exo 2", sans-serif;
@@ -66,11 +73,18 @@ Custom Mobile Settings
 !!!!!!!!!
 */
 @media (max-width: 768px) {
-  .title {
-    position: sticky;
-    top: 0;
-    font-size: 20px;
-    padding: 25px;
+  .titleimg {
+  position: sticky;
+  top: 0;
+  height: 100px;
+  width: 100%;
+  }
+  .titletext {
+  position: sticky;
+  top: 0;
+  color: white;
+  background-color: #2e2e2e;
+  font-family: "Exo 2", sans-serif;
   }
   .t {
     font-size: 10px;
