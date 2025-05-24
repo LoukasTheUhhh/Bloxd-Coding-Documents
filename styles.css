@@ -33,6 +33,9 @@ p {
 /*Make titles fit for all screen sizes*/
 @media (max-width: 768px) {
   .title {
+    position: sticky;
+    top: 0;
+    background-color: #2e2e2e;
     font-size: 16px;
     padding: 20px;
   }
