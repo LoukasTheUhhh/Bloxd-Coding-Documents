@@ -1,7 +1,7 @@
 .title {
   position: sticky;
   top: 0;
-  background-color: black;
+  background-color: #2e2e2e;
 padding: 30px;
   font-size: 20px;
 }
@@ -21,8 +21,9 @@ a {
   background-color: black;
 }
 .Introduction {
-  background-color: darkslategray;
+  background-color: #2e2e2e;
 }
 p {
   color: white;
+  background-color: #2e2e2e;
 }
