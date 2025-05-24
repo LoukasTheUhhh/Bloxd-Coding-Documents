@@ -4,7 +4,7 @@ Normal Desktop Settings
 !!!!!!!!!
 */
 /*Classes for Sticky Titles at the top of the page*/
-  titleimg {
+.titleimg {
   display: block;
   margin: 0 auto;
   position: sticky;
