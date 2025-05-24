@@ -5,8 +5,6 @@ Normal Desktop Settings
 */
 /*Classes for Sticky Titles at the top of the page*/
 .titleimg {
-  display: block;
-  margin: 0 auto;
   position: sticky;
   top: 0;
   max-width: 100%;
@@ -77,7 +75,7 @@ Custom Mobile Settings
 */
 @media (max-width: 768px) {
   .titleimg {
-    max-width: 80%;  /* Adjust as preferred */
+    max-width: 100%;  /* Adjust as preferred */
     height: auto;
     top: 0;
   }
